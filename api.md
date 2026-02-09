@@ -13,7 +13,7 @@
 - Se token/chave inválidos → `401 unauthorized`.
 - Se não for SSL em produção → `426 upgrade_required`.
 
-### Exceção (gambiarra específica em `/api/v1/pedidos`)
+### Exceção
 Se a requisição for para `/api/v1/pedidos` sem `Authorization`, o código tenta extrair `account_id` do body e usar credenciais da conta.
 
 ---
