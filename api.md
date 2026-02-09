@@ -5,7 +5,7 @@
 ### Headers obrigatórios
 - `Authorization: Bearer <token>`
 - `Account-Key: <account_key>`
-- `App: <nome_app>` (lido no controller, pode ser validado por regra futura)
+- `App: <nome_app>`
 
 ### Regras do `authenticate_account`
 - Exige SSL (exceto `development`).
